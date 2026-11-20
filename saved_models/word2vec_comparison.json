@@ -1,0 +1,388 @@
+{
+  "cbow": {
+    "training_time_seconds": 1.61,
+    "vocab_size": 14890,
+    "vector_size": 100,
+    "accuracy": 0.7849,
+    "macro_f1": 0.7717,
+    "semantic_similarities": {
+      "bully": [
+        {
+          "word": "elementary",
+          "similarity": 0.7536
+        },
+        {
+          "word": "teacher",
+          "similarity": 0.7471
+        },
+        {
+          "word": "clowned",
+          "similarity": 0.7422
+        },
+        {
+          "word": "middle",
+          "similarity": 0.7294
+        },
+        {
+          "word": "parent",
+          "similarity": 0.7246
+        }
+      ],
+      "school": [
+        {
+          "word": "jr",
+          "similarity": 0.829
+        },
+        {
+          "word": "junior",
+          "similarity": 0.7981
+        },
+        {
+          "word": "royale",
+          "similarity": 0.7792
+        },
+        {
+          "word": "teacher",
+          "similarity": 0.7719
+        },
+        {
+          "word": "schoolhigh",
+          "similarity": 0.7587
+        }
+      ],
+      "hate": [
+        {
+          "word": "real",
+          "similarity": 0.6662
+        },
+        {
+          "word": "sarcasm",
+          "similarity": 0.6563
+        },
+        {
+          "word": "deblasio",
+          "similarity": 0.6535
+        },
+        {
+          "word": "proud",
+          "similarity": 0.6451
+        },
+        {
+          "word": "degrading",
+          "similarity": 0.6366
+        }
+      ],
+      "friend": [
+        {
+          "word": "crush",
+          "similarity": 0.8201
+        },
+        {
+          "word": "bc",
+          "similarity": 0.7929
+        },
+        {
+          "word": "remember",
+          "similarity": 0.7895
+        },
+        {
+          "word": "mom",
+          "similarity": 0.7767
+        },
+        {
+          "word": "instagram",
+          "similarity": 0.7754
+        }
+      ],
+      "threat": [
+        {
+          "word": "mass",
+          "similarity": 0.9054
+        },
+        {
+          "word": "violent",
+          "similarity": 0.8938
+        },
+        {
+          "word": "murder",
+          "similarity": 0.8866
+        },
+        {
+          "word": "false",
+          "similarity": 0.883
+        },
+        {
+          "word": "violence",
+          "similarity": 0.8824
+        }
+      ],
+      "people": [
+        {
+          "word": "folk",
+          "similarity": 0.8008
+        },
+        {
+          "word": "cop",
+          "similarity": 0.7665
+        },
+        {
+          "word": "oppressed",
+          "similarity": 0.7514
+        },
+        {
+          "word": "ppl",
+          "similarity": 0.7504
+        },
+        {
+          "word": "person",
+          "similarity": 0.7354
+        }
+      ],
+      "girl": [
+        {
+          "word": "nurse",
+          "similarity": 0.8288
+        },
+        {
+          "word": "clowned",
+          "similarity": 0.8255
+        },
+        {
+          "word": "liking",
+          "similarity": 0.7987
+        },
+        {
+          "word": "went",
+          "similarity": 0.7966
+        },
+        {
+          "word": "junior",
+          "similarity": 0.7895
+        }
+      ],
+      "boy": [
+        {
+          "word": "skinny",
+          "similarity": 0.7958
+        },
+        {
+          "word": "fat",
+          "similarity": 0.7831
+        },
+        {
+          "word": "liking",
+          "similarity": 0.7764
+        },
+        {
+          "word": "constantly",
+          "similarity": 0.776
+        },
+        {
+          "word": "dating",
+          "similarity": 0.7755
+        }
+      ]
+    }
+  },
+  "skipgram": {
+    "training_time_seconds": 4.62,
+    "vocab_size": 14890,
+    "vector_size": 100,
+    "accuracy": 0.7854,
+    "macro_f1": 0.7697,
+    "semantic_similarities": {
+      "bully": [
+        {
+          "word": "elementary",
+          "similarity": 0.7568
+        },
+        {
+          "word": "playground",
+          "similarity": 0.6955
+        },
+        {
+          "word": "yard",
+          "similarity": 0.6842
+        },
+        {
+          "word": "secondary",
+          "similarity": 0.6805
+        },
+        {
+          "word": "school",
+          "similarity": 0.6746
+        }
+      ],
+      "school": [
+        {
+          "word": "elementary",
+          "similarity": 0.7883
+        },
+        {
+          "word": "highschool",
+          "similarity": 0.781
+        },
+        {
+          "word": "classmate",
+          "similarity": 0.7639
+        },
+        {
+          "word": "childhood",
+          "similarity": 0.7564
+        },
+        {
+          "word": "junior",
+          "similarity": 0.749
+        }
+      ],
+      "hate": [
+        {
+          "word": "ovechkin",
+          "similarity": 0.5355
+        },
+        {
+          "word": "adore",
+          "similarity": 0.5314
+        },
+        {
+          "word": "piss",
+          "similarity": 0.5253
+        },
+        {
+          "word": "filled",
+          "similarity": 0.5248
+        },
+        {
+          "word": "sarcasm",
+          "similarity": 0.5238
+        }
+      ],
+      "friend": [
+        {
+          "word": "crush",
+          "similarity": 0.6346
+        },
+        {
+          "word": "ex",
+          "similarity": 0.6146
+        },
+        {
+          "word": "mine",
+          "similarity": 0.6126
+        },
+        {
+          "word": "ended",
+          "similarity": 0.6037
+        },
+        {
+          "word": "royale",
+          "similarity": 0.5915
+        }
+      ],
+      "threat": [
+        {
+          "word": "brutal",
+          "similarity": 0.7304
+        },
+        {
+          "word": "internal",
+          "similarity": 0.7156
+        },
+        {
+          "word": "deadly",
+          "similarity": 0.7022
+        },
+        {
+          "word": "global",
+          "similarity": 0.7011
+        },
+        {
+          "word": "comparison",
+          "similarity": 0.6976
+        }
+      ],
+      "people": [
+        {
+          "word": "oppressed",
+          "similarity": 0.6729
+        },
+        {
+          "word": "dominant",
+          "similarity": 0.6671
+        },
+        {
+          "word": "theyd",
+          "similarity": 0.6662
+        },
+        {
+          "word": "relation",
+          "similarity": 0.6572
+        },
+        {
+          "word": "analogy",
+          "similarity": 0.6531
+        }
+      ],
+      "girl": [
+        {
+          "word": "tomboy",
+          "similarity": 0.747
+        },
+        {
+          "word": "bullied",
+          "similarity": 0.7463
+        },
+        {
+          "word": "middlehigh",
+          "similarity": 0.7361
+        },
+        {
+          "word": "shy",
+          "similarity": 0.7317
+        },
+        {
+          "word": "junior",
+          "similarity": 0.7312
+        }
+      ],
+      "boy": [
+        {
+          "word": "crack",
+          "similarity": 0.6386
+        },
+        {
+          "word": "miseducation",
+          "similarity": 0.634
+        },
+        {
+          "word": "sexy",
+          "similarity": 0.5833
+        },
+        {
+          "word": "girlfriend",
+          "similarity": 0.5701
+        },
+        {
+          "word": "jock",
+          "similarity": 0.5609
+        }
+      ]
+    }
+  },
+  "analogies": [
+    {
+      "analogy": "hate:attack :: love:?",
+      "cbow_prediction": "blab",
+      "cbow_score": 0.7163,
+      "sg_prediction": "humanityif",
+      "sg_score": 0.5398
+    },
+    {
+      "analogy": "school:college :: student:?",
+      "cbow_prediction": "senior",
+      "cbow_score": 0.8336,
+      "sg_prediction": "witnessed",
+      "sg_score": 0.5528
+    }
+  ]
+}

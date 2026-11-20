@@ -1,0 +1,1686 @@
+{
+  "cbow_coords": [
+    {
+      "word": "school",
+      "pca_x": 6.3415,
+      "pca_y": -6.2015,
+      "tsne_x": 0.8717,
+      "tsne_y": 5.9723
+    },
+    {
+      "word": "\u2019",
+      "pca_x": 2.5195,
+      "pca_y": -1.197,
+      "tsne_x": 2.5231,
+      "tsne_y": 1.8113
+    },
+    {
+      "word": "not",
+      "pca_x": -1.4516,
+      "pca_y": 0.4117,
+      "tsne_x": -1.1077,
+      "tsne_y": -1.0688
+    },
+    {
+      "word": "fuck",
+      "pca_x": 1.2566,
+      "pca_y": 5.9624,
+      "tsne_x": -3.6802,
+      "tsne_y": -4.9323
+    },
+    {
+      "word": "like",
+      "pca_x": 1.5226,
+      "pca_y": -0.6386,
+      "tsne_x": 1.6111,
+      "tsne_y": -0.2785
+    },
+    {
+      "word": "nigger",
+      "pca_x": 0.3698,
+      "pca_y": 6.8811,
+      "tsne_x": -3.5586,
+      "tsne_y": -5.2899
+    },
+    {
+      "word": "joke",
+      "pca_x": 2.0161,
+      "pca_y": 4.9821,
+      "tsne_x": 5.0911,
+      "tsne_y": 0.5021
+    },
+    {
+      "word": "girl",
+      "pca_x": 8.0785,
+      "pca_y": -4.3674,
+      "tsne_x": 2.2214,
+      "tsne_y": 4.5807
+    },
+    {
+      "word": "u",
+      "pca_x": -3.1265,
+      "pca_y": -0.1705,
+      "tsne_x": -6.0097,
+      "tsne_y": 0.3592
+    },
+    {
+      "word": "dumb",
+      "pca_x": 0.0408,
+      "pca_y": 5.3435,
+      "tsne_x": -4.1512,
+      "tsne_y": -4.8754
+    },
+    {
+      "word": "bully",
+      "pca_x": 5.5088,
+      "pca_y": -6.1468,
+      "tsne_x": 0.58,
+      "tsne_y": 5.2062
+    },
+    {
+      "word": "high",
+      "pca_x": 7.6844,
+      "pca_y": -6.2474,
+      "tsne_x": 1.9192,
+      "tsne_y": 4.9212
+    },
+    {
+      "word": "people",
+      "pca_x": -0.4269,
+      "pca_y": -0.2265,
+      "tsne_x": 2.0086,
+      "tsne_y": -1.4989
+    },
+    {
+      "word": "muslim",
+      "pca_x": -7.5974,
+      "pca_y": -2.5154,
+      "tsne_x": 5.6479,
+      "tsne_y": -1.6266
+    },
+    {
+      "word": "bullied",
+      "pca_x": 8.845,
+      "pca_y": -6.7505,
+      "tsne_x": 2.0083,
+      "tsne_y": 5.373
+    },
+    {
+      "word": "gay",
+      "pca_x": 2.1716,
+      "pca_y": 4.499,
+      "tsne_x": 5.1337,
+      "tsne_y": 0.5145
+    },
+    {
+      "word": "rape",
+      "pca_x": 0.8945,
+      "pca_y": 4.5637,
+      "tsne_x": 5.2655,
+      "tsne_y": 0.5352
+    },
+    {
+      "word": "rt",
+      "pca_x": -1.5173,
+      "pca_y": 5.5004,
+      "tsne_x": -2.2801,
+      "tsne_y": -3.2046
+    },
+    {
+      "word": "one",
+      "pca_x": 0.7244,
+      "pca_y": -2.5746,
+      "tsne_x": 0.2527,
+      "tsne_y": 2.6736
+    },
+    {
+      "word": "idiot",
+      "pca_x": -6.4807,
+      "pca_y": -0.9305,
+      "tsne_x": -4.9862,
+      "tsne_y": 2.5373
+    },
+    {
+      "word": "no",
+      "pca_x": -1.6318,
+      "pca_y": -0.5248,
+      "tsne_x": -2.9595,
+      "tsne_y": 2.1972
+    },
+    {
+      "word": "im",
+      "pca_x": 2.5783,
+      "pca_y": 2.7546,
+      "tsne_x": -1.3198,
+      "tsne_y": -3.2134
+    },
+    {
+      "word": "dont",
+      "pca_x": -2.7534,
+      "pca_y": 1.5774,
+      "tsne_x": -4.2903,
+      "tsne_y": -0.9007
+    },
+    {
+      "word": "woman",
+      "pca_x": -0.5267,
+      "pca_y": 2.2869,
+      "tsne_x": -2.3606,
+      "tsne_y": 4.1352
+    },
+    {
+      "word": "get",
+      "pca_x": 2.3312,
+      "pca_y": -0.044,
+      "tsne_x": -1.757,
+      "tsne_y": 1.4891
+    },
+    {
+      "word": "\u201c",
+      "pca_x": 3.2053,
+      "pca_y": 2.0746,
+      "tsne_x": 3.355,
+      "tsne_y": 2.087
+    },
+    {
+      "word": "black",
+      "pca_x": -0.1458,
+      "pca_y": 3.8574,
+      "tsne_x": 3.1448,
+      "tsne_y": -4.4426
+    },
+    {
+      "word": "as",
+      "pca_x": 2.4625,
+      "pca_y": 5.6944,
+      "tsne_x": -3.6617,
+      "tsne_y": -4.9476
+    },
+    {
+      "word": "\u201d",
+      "pca_x": 2.4574,
+      "pca_y": 1.9171,
+      "tsne_x": 0.6378,
+      "tsne_y": -3.2482
+    },
+    {
+      "word": "bitch",
+      "pca_x": 2.7838,
+      "pca_y": 4.7142,
+      "tsne_x": -2.0443,
+      "tsne_y": -5.3199
+    },
+    {
+      "word": "know",
+      "pca_x": -1.0342,
+      "pca_y": -0.4919,
+      "tsne_x": -1.2585,
+      "tsne_y": -0.3982
+    },
+    {
+      "word": "mkr",
+      "pca_x": 0.565,
+      "pca_y": 2.3454,
+      "tsne_x": -3.3819,
+      "tsne_y": -2.6054
+    },
+    {
+      "word": "white",
+      "pca_x": -0.1539,
+      "pca_y": 3.4202,
+      "tsne_x": 3.0943,
+      "tsne_y": -4.4568
+    },
+    {
+      "word": "think",
+      "pca_x": 0.1856,
+      "pca_y": 1.2717,
+      "tsne_x": -0.5641,
+      "tsne_y": -0.9997
+    },
+    {
+      "word": "right",
+      "pca_x": -3.2276,
+      "pca_y": 0.6464,
+      "tsne_x": -3.0949,
+      "tsne_y": 3.9346
+    },
+    {
+      "word": "say",
+      "pca_x": -1.2451,
+      "pca_y": 2.5981,
+      "tsne_x": 0.3739,
+      "tsne_y": -2.4154
+    },
+    {
+      "word": "make",
+      "pca_x": 1.5038,
+      "pca_y": 1.4855,
+      "tsne_x": 3.204,
+      "tsne_y": 0.4003
+    },
+    {
+      "word": "would",
+      "pca_x": 1.2211,
+      "pca_y": -1.9588,
+      "tsne_x": 0.7637,
+      "tsne_y": 1.6684
+    },
+    {
+      "word": "christian",
+      "pca_x": -6.1885,
+      "pca_y": -1.7764,
+      "tsne_x": -3.7122,
+      "tsne_y": 4.6791
+    },
+    {
+      "word": "call",
+      "pca_x": 0.2171,
+      "pca_y": 4.4016,
+      "tsne_x": -0.8801,
+      "tsne_y": -5.9202
+    },
+    {
+      "word": "go",
+      "pca_x": 0.3956,
+      "pca_y": 0.0957,
+      "tsne_x": -2.6174,
+      "tsne_y": 1.3038
+    },
+    {
+      "word": "time",
+      "pca_x": 1.5298,
+      "pca_y": -2.7186,
+      "tsne_x": -0.4798,
+      "tsne_y": 3.1998
+    },
+    {
+      "word": "got",
+      "pca_x": 5.1236,
+      "pca_y": -1.3411,
+      "tsne_x": 2.0104,
+      "tsne_y": 3.3373
+    },
+    {
+      "word": "fucking",
+      "pca_x": 1.5823,
+      "pca_y": 4.6866,
+      "tsne_x": -2.2549,
+      "tsne_y": -4.6357
+    },
+    {
+      "word": "even",
+      "pca_x": -0.0235,
+      "pca_y": -0.5153,
+      "tsne_x": -0.7316,
+      "tsne_y": -0.0884
+    },
+    {
+      "word": "want",
+      "pca_x": -1.3094,
+      "pca_y": -0.1539,
+      "tsne_x": -2.6164,
+      "tsne_y": 0.2047
+    },
+    {
+      "word": "never",
+      "pca_x": 1.0139,
+      "pca_y": -2.2581,
+      "tsne_x": 1.32,
+      "tsne_y": 2.0703
+    },
+    {
+      "word": "called",
+      "pca_x": 0.9687,
+      "pca_y": 2.6411,
+      "tsne_x": 2.3779,
+      "tsne_y": -4.431
+    },
+    {
+      "word": "see",
+      "pca_x": -0.0133,
+      "pca_y": -0.1908,
+      "tsne_x": -1.4934,
+      "tsne_y": 0.1368
+    },
+    {
+      "word": "shit",
+      "pca_x": 2.4704,
+      "pca_y": 2.8239,
+      "tsne_x": -2.8213,
+      "tsne_y": -4.1337
+    },
+    {
+      "word": "ur",
+      "pca_x": -1.6563,
+      "pca_y": -1.4297,
+      "tsne_x": -6.4136,
+      "tsne_y": -0.1679
+    },
+    {
+      "word": "terrorist",
+      "pca_x": -8.6959,
+      "pca_y": -5.06,
+      "tsne_x": -6.6291,
+      "tsne_y": 2.9164
+    },
+    {
+      "word": "thing",
+      "pca_x": 0.6147,
+      "pca_y": -1.5078,
+      "tsne_x": 1.1871,
+      "tsne_y": 0.9412
+    },
+    {
+      "word": "still",
+      "pca_x": 0.8931,
+      "pca_y": 0.1657,
+      "tsne_x": -0.6243,
+      "tsne_y": -0.6378
+    },
+    {
+      "word": "hate",
+      "pca_x": -1.2794,
+      "pca_y": 1.821,
+      "tsne_x": -0.4709,
+      "tsne_y": -1.8564
+    },
+    {
+      "word": "really",
+      "pca_x": 2.3521,
+      "pca_y": 0.5645,
+      "tsne_x": 0.0988,
+      "tsne_y": -0.347
+    },
+    {
+      "word": "need",
+      "pca_x": -1.1972,
+      "pca_y": -0.7846,
+      "tsne_x": -2.9404,
+      "tsne_y": 0.1968
+    },
+    {
+      "word": "year",
+      "pca_x": 3.1815,
+      "pca_y": -6.6885,
+      "tsne_x": 1.8347,
+      "tsne_y": -6.3251
+    },
+    {
+      "word": "said",
+      "pca_x": 1.2916,
+      "pca_y": 1.5462,
+      "tsne_x": 0.7109,
+      "tsne_y": -2.5243
+    },
+    {
+      "word": "support",
+      "pca_x": -6.058,
+      "pca_y": -2.1565,
+      "tsne_x": -4.3836,
+      "tsne_y": 4.5581
+    },
+    {
+      "word": "islam",
+      "pca_x": -9.22,
+      "pca_y": -1.6941,
+      "tsne_x": -6.3318,
+      "tsne_y": 3.1687
+    },
+    {
+      "word": "first",
+      "pca_x": -0.4102,
+      "pca_y": -2.9462,
+      "tsne_x": -6.5048,
+      "tsne_y": -0.3536
+    },
+    {
+      "word": "islamic",
+      "pca_x": -9.5105,
+      "pca_y": -6.074,
+      "tsne_x": -6.2705,
+      "tsne_y": 1.8635
+    },
+    {
+      "word": "obama",
+      "pca_x": -1.7279,
+      "pca_y": 6.3461,
+      "tsne_x": -4.3677,
+      "tsne_y": -4.2128
+    },
+    {
+      "word": "look",
+      "pca_x": 1.3634,
+      "pca_y": 0.1161,
+      "tsne_x": 0.5357,
+      "tsne_y": -1.1874
+    },
+    {
+      "word": "man",
+      "pca_x": 0.1646,
+      "pca_y": 3.2979,
+      "tsne_x": 2.7633,
+      "tsne_y": -1.3362
+    },
+    {
+      "word": "bullying",
+      "pca_x": 2.7821,
+      "pca_y": -5.6747,
+      "tsne_x": -0.482,
+      "tsne_y": 5.2227
+    },
+    {
+      "word": "mean",
+      "pca_x": 0.8687,
+      "pca_y": -1.2731,
+      "tsne_x": 1.0414,
+      "tsne_y": -0.1979
+    },
+    {
+      "word": "female",
+      "pca_x": 0.8081,
+      "pca_y": 4.4647,
+      "tsne_x": -0.9677,
+      "tsne_y": -6.0064
+    },
+    {
+      "word": "friend",
+      "pca_x": 4.6746,
+      "pca_y": -4.0516,
+      "tsne_x": 1.0414,
+      "tsne_y": 3.5378
+    },
+    {
+      "word": "also",
+      "pca_x": -0.262,
+      "pca_y": -1.3301,
+      "tsne_x": 0.2833,
+      "tsne_y": 0.4643
+    },
+    {
+      "word": "kid",
+      "pca_x": 4.5366,
+      "pca_y": -4.1427,
+      "tsne_x": 0.8113,
+      "tsne_y": 5.0338
+    },
+    {
+      "word": "guy",
+      "pca_x": 1.9609,
+      "pca_y": -0.8704,
+      "tsne_x": 0.7409,
+      "tsne_y": 0.5346
+    },
+    {
+      "word": "life",
+      "pca_x": 0.7441,
+      "pca_y": -2.5337,
+      "tsne_x": 0.9687,
+      "tsne_y": -4.2961
+    },
+    {
+      "word": "good",
+      "pca_x": -0.1874,
+      "pca_y": -1.1528,
+      "tsne_x": -0.8713,
+      "tsne_y": 1.0103
+    },
+    {
+      "word": "terrorism",
+      "pca_x": -8.9503,
+      "pca_y": -4.7475,
+      "tsne_x": -7.1002,
+      "tsne_y": 2.1501
+    },
+    {
+      "word": "anything",
+      "pca_x": 0.1329,
+      "pca_y": -0.2517,
+      "tsne_x": 4.9361,
+      "tsne_y": -3.833
+    },
+    {
+      "word": "cant",
+      "pca_x": -1.8024,
+      "pca_y": 1.7348,
+      "tsne_x": -3.9417,
+      "tsne_y": -0.7158
+    },
+    {
+      "word": "love",
+      "pca_x": 0.6773,
+      "pca_y": -1.0759,
+      "tsne_x": -1.8086,
+      "tsne_y": -1.1498
+    },
+    {
+      "word": "back",
+      "pca_x": 2.4628,
+      "pca_y": -2.6589,
+      "tsne_x": -1.7451,
+      "tsne_y": 2.3919
+    },
+    {
+      "word": "way",
+      "pca_x": 0.6624,
+      "pca_y": -1.0343,
+      "tsne_x": 0.2283,
+      "tsne_y": 0.721
+    },
+    {
+      "word": "day",
+      "pca_x": 2.3706,
+      "pca_y": -3.7941,
+      "tsne_x": -0.5134,
+      "tsne_y": 3.2495
+    },
+    {
+      "word": "racist",
+      "pca_x": -1.2773,
+      "pca_y": 4.4733,
+      "tsne_x": 2.4303,
+      "tsne_y": -2.7375
+    },
+    {
+      "word": "lol",
+      "pca_x": 2.2185,
+      "pca_y": 1.9204,
+      "tsne_x": -1.7075,
+      "tsne_y": -2.4215
+    },
+    {
+      "word": "stop",
+      "pca_x": -1.0323,
+      "pca_y": 1.1356,
+      "tsne_x": -2.6084,
+      "tsne_y": -0.5713
+    },
+    {
+      "word": "thats",
+      "pca_x": -0.3166,
+      "pca_y": 2.109,
+      "tsne_x": -1.1795,
+      "tsne_y": -2.1021
+    },
+    {
+      "word": "radical",
+      "pca_x": -9.376,
+      "pca_y": -3.1599,
+      "tsne_x": -4.4837,
+      "tsne_y": 4.5513
+    },
+    {
+      "word": "against",
+      "pca_x": -5.6059,
+      "pca_y": -1.9037,
+      "tsne_x": 3.8811,
+      "tsne_y": -1.9807
+    },
+    {
+      "word": "youre",
+      "pca_x": 0.1132,
+      "pca_y": 3.2771,
+      "tsne_x": -1.1965,
+      "tsne_y": -2.7338
+    },
+    {
+      "word": "sexist",
+      "pca_x": -1.9065,
+      "pca_y": 5.6545,
+      "tsne_x": -0.8107,
+      "tsne_y": -4.2456
+    },
+    {
+      "word": "men",
+      "pca_x": -0.3165,
+      "pca_y": 2.5125,
+      "tsne_x": 2.9954,
+      "tsne_y": -1.0225
+    },
+    {
+      "word": "made",
+      "pca_x": 3.1997,
+      "pca_y": -0.4167,
+      "tsne_x": 2.7416,
+      "tsne_y": 0.4906
+    },
+    {
+      "word": "someone",
+      "pca_x": 1.9576,
+      "pca_y": 0.0184,
+      "tsne_x": 1.7792,
+      "tsne_y": 1.1524
+    },
+    {
+      "word": "word",
+      "pca_x": -1.5895,
+      "pca_y": 3.4045,
+      "tsne_x": 1.7304,
+      "tsne_y": -2.8462
+    },
+    {
+      "word": "going",
+      "pca_x": 1.3111,
+      "pca_y": -0.8539,
+      "tsne_x": -1.5469,
+      "tsne_y": 1.1662
+    },
+    {
+      "word": "every",
+      "pca_x": 0.8574,
+      "pca_y": -2.0882,
+      "tsne_x": -0.4769,
+      "tsne_y": 2.1717
+    },
+    {
+      "word": "bad",
+      "pca_x": 1.5684,
+      "pca_y": 0.3482,
+      "tsne_x": 0.7237,
+      "tsne_y": -0.0775
+    },
+    {
+      "word": "funny",
+      "pca_x": 2.9956,
+      "pca_y": 3.0468,
+      "tsne_x": 4.5215,
+      "tsne_y": 0.4524
+    },
+    {
+      "word": "na",
+      "pca_x": 3.531,
+      "pca_y": 2.4383,
+      "tsne_x": -3.9263,
+      "tsne_y": 0.1744
+    },
+    {
+      "word": "racism",
+      "pca_x": -4.3328,
+      "pca_y": 2.5941,
+      "tsne_x": 2.7701,
+      "tsne_y": -2.942
+    },
+    {
+      "word": "take",
+      "pca_x": -0.1678,
+      "pca_y": -0.3047,
+      "tsne_x": -2.328,
+      "tsne_y": 0.7261
+    },
+    {
+      "word": "name",
+      "pca_x": -1.559,
+      "pca_y": -0.5316,
+      "tsne_x": -4.196,
+      "tsne_y": 1.1928
+    },
+    {
+      "word": "let",
+      "pca_x": -0.361,
+      "pca_y": -0.1857,
+      "tsne_x": -2.8446,
+      "tsne_y": 0.4015
+    },
+    {
+      "word": "much",
+      "pca_x": 0.4555,
+      "pca_y": -1.9598,
+      "tsne_x": -0.3631,
+      "tsne_y": 0.4273
+    },
+    {
+      "word": "world",
+      "pca_x": -4.2723,
+      "pca_y": -3.0004,
+      "tsne_x": -5.1745,
+      "tsne_y": 1.8755
+    },
+    {
+      "word": "always",
+      "pca_x": 1.6773,
+      "pca_y": -1.6826,
+      "tsne_x": 0.3962,
+      "tsne_y": 0.782
+    },
+    {
+      "word": "country",
+      "pca_x": -5.7598,
+      "pca_y": -3.0614,
+      "tsne_x": -5.0602,
+      "tsne_y": 2.1919
+    },
+    {
+      "word": "saying",
+      "pca_x": -0.1468,
+      "pca_y": 2.136,
+      "tsne_x": 0.6623,
+      "tsne_y": -2.1217
+    },
+    {
+      "word": "isi",
+      "pca_x": -8.261,
+      "pca_y": -3.0161,
+      "tsne_x": -6.4794,
+      "tsne_y": 3.1777
+    },
+    {
+      "word": "many",
+      "pca_x": -1.0818,
+      "pca_y": -3.6938,
+      "tsne_x": -0.1033,
+      "tsne_y": 1.5012
+    },
+    {
+      "word": "tell",
+      "pca_x": -0.2967,
+      "pca_y": -0.0247,
+      "tsne_x": -1.8295,
+      "tsne_y": 0.0257
+    },
+    {
+      "word": "well",
+      "pca_x": -0.4028,
+      "pca_y": -0.5055,
+      "tsne_x": -1.1265,
+      "tsne_y": 0.3882
+    },
+    {
+      "word": "past",
+      "pca_x": -0.0664,
+      "pca_y": -1.63,
+      "tsne_x": 4.9413,
+      "tsne_y": -3.8664
+    },
+    {
+      "word": "middle",
+      "pca_x": 4.7964,
+      "pca_y": -6.1931,
+      "tsne_x": 1.4473,
+      "tsne_y": 4.9577
+    },
+    {
+      "word": "person",
+      "pca_x": 0.4688,
+      "pca_y": 0.667,
+      "tsne_x": 1.7371,
+      "tsne_y": -1.6085
+    },
+    {
+      "word": "god",
+      "pca_x": -2.7967,
+      "pca_y": 1.3195,
+      "tsne_x": -3.0536,
+      "tsne_y": -1.5135
+    },
+    {
+      "word": "ever",
+      "pca_x": 0.5796,
+      "pca_y": -1.587,
+      "tsne_x": 0.5836,
+      "tsne_y": 2.0499
+    },
+    {
+      "word": "oh",
+      "pca_x": 0.6249,
+      "pca_y": 2.9185,
+      "tsne_x": -2.053,
+      "tsne_y": -2.2551
+    },
+    {
+      "word": "feel",
+      "pca_x": 2.2172,
+      "pca_y": -0.4621,
+      "tsne_x": 0.5274,
+      "tsne_y": -0.6827
+    },
+    {
+      "word": "come",
+      "pca_x": -0.9477,
+      "pca_y": -0.3332,
+      "tsne_x": -2.1317,
+      "tsne_y": 0.4614
+    }
+  ],
+  "skipgram_coords": [
+    {
+      "word": "school",
+      "pca_x": -0.2966,
+      "pca_y": 0.0691,
+      "tsne_x": 3.1968,
+      "tsne_y": 5.2539
+    },
+    {
+      "word": "\u2019",
+      "pca_x": -0.4259,
+      "pca_y": -0.4625,
+      "tsne_x": 0.0476,
+      "tsne_y": 0.5854
+    },
+    {
+      "word": "not",
+      "pca_x": 0.0534,
+      "pca_y": -0.5073,
+      "tsne_x": -0.0601,
+      "tsne_y": 0.7518
+    },
+    {
+      "word": "fuck",
+      "pca_x": -1.0426,
+      "pca_y": 2.0435,
+      "tsne_x": 5.6454,
+      "tsne_y": 1.8839
+    },
+    {
+      "word": "like",
+      "pca_x": -0.1847,
+      "pca_y": -0.3408,
+      "tsne_x": 0.1886,
+      "tsne_y": 1.7735
+    },
+    {
+      "word": "nigger",
+      "pca_x": -0.6659,
+      "pca_y": 2.5852,
+      "tsne_x": 5.675,
+      "tsne_y": 1.8941
+    },
+    {
+      "word": "joke",
+      "pca_x": -0.2796,
+      "pca_y": 0.2721,
+      "tsne_x": -4.151,
+      "tsne_y": -4.7603
+    },
+    {
+      "word": "girl",
+      "pca_x": -0.6035,
+      "pca_y": -0.2733,
+      "tsne_x": 2.833,
+      "tsne_y": 5.0278
+    },
+    {
+      "word": "u",
+      "pca_x": 0.6584,
+      "pca_y": 0.0734,
+      "tsne_x": -1.7089,
+      "tsne_y": -0.3976
+    },
+    {
+      "word": "dumb",
+      "pca_x": -0.7054,
+      "pca_y": 2.4542,
+      "tsne_x": 5.7078,
+      "tsne_y": 1.9512
+    },
+    {
+      "word": "bully",
+      "pca_x": -0.3201,
+      "pca_y": 0.5148,
+      "tsne_x": 3.6644,
+      "tsne_y": 5.4573
+    },
+    {
+      "word": "high",
+      "pca_x": -0.535,
+      "pca_y": 0.1644,
+      "tsne_x": 2.9308,
+      "tsne_y": 5.2693
+    },
+    {
+      "word": "people",
+      "pca_x": 0.1021,
+      "pca_y": -0.6447,
+      "tsne_x": -0.372,
+      "tsne_y": 0.0656
+    },
+    {
+      "word": "muslim",
+      "pca_x": 1.1713,
+      "pca_y": -0.4078,
+      "tsne_x": -1.9504,
+      "tsne_y": -2.1008
+    },
+    {
+      "word": "bullied",
+      "pca_x": -0.507,
+      "pca_y": 0.3413,
+      "tsne_x": 2.965,
+      "tsne_y": 5.2567
+    },
+    {
+      "word": "gay",
+      "pca_x": -0.2798,
+      "pca_y": 0.0126,
+      "tsne_x": -4.1392,
+      "tsne_y": -4.7713
+    },
+    {
+      "word": "rape",
+      "pca_x": -0.0256,
+      "pca_y": 0.1871,
+      "tsne_x": -4.1348,
+      "tsne_y": -4.7886
+    },
+    {
+      "word": "rt",
+      "pca_x": -0.2817,
+      "pca_y": 0.9533,
+      "tsne_x": 3.5624,
+      "tsne_y": 0.8858
+    },
+    {
+      "word": "one",
+      "pca_x": -0.125,
+      "pca_y": -0.6694,
+      "tsne_x": -0.7587,
+      "tsne_y": 0.0344
+    },
+    {
+      "word": "idiot",
+      "pca_x": 0.8395,
+      "pca_y": -0.18,
+      "tsne_x": -1.8995,
+      "tsne_y": -2.0927
+    },
+    {
+      "word": "no",
+      "pca_x": -0.124,
+      "pca_y": -0.1348,
+      "tsne_x": 1.8495,
+      "tsne_y": -0.5087
+    },
+    {
+      "word": "im",
+      "pca_x": -0.8548,
+      "pca_y": 0.3311,
+      "tsne_x": 2.7321,
+      "tsne_y": 0.2182
+    },
+    {
+      "word": "dont",
+      "pca_x": -0.0398,
+      "pca_y": -0.3355,
+      "tsne_x": -1.5514,
+      "tsne_y": 1.6809
+    },
+    {
+      "word": "woman",
+      "pca_x": 0.302,
+      "pca_y": -0.619,
+      "tsne_x": 2.7398,
+      "tsne_y": -2.117
+    },
+    {
+      "word": "get",
+      "pca_x": -0.54,
+      "pca_y": -0.1024,
+      "tsne_x": 2.267,
+      "tsne_y": 2.8525
+    },
+    {
+      "word": "\u201c",
+      "pca_x": -0.6872,
+      "pca_y": 0.2694,
+      "tsne_x": 5.6867,
+      "tsne_y": -2.4701
+    },
+    {
+      "word": "black",
+      "pca_x": -0.1678,
+      "pca_y": 0.6673,
+      "tsne_x": 0.0324,
+      "tsne_y": -3.6756
+    },
+    {
+      "word": "as",
+      "pca_x": -0.8949,
+      "pca_y": 2.017,
+      "tsne_x": 5.7794,
+      "tsne_y": 1.9503
+    },
+    {
+      "word": "\u201d",
+      "pca_x": -0.7258,
+      "pca_y": 0.3376,
+      "tsne_x": 5.6831,
+      "tsne_y": -2.4653
+    },
+    {
+      "word": "bitch",
+      "pca_x": -0.8454,
+      "pca_y": 1.4276,
+      "tsne_x": 5.4699,
+      "tsne_y": 0.2254
+    },
+    {
+      "word": "know",
+      "pca_x": 0.1256,
+      "pca_y": -0.1877,
+      "tsne_x": -0.137,
+      "tsne_y": 1.2946
+    },
+    {
+      "word": "mkr",
+      "pca_x": -0.5223,
+      "pca_y": 1.0623,
+      "tsne_x": -0.1043,
+      "tsne_y": 5.1349
+    },
+    {
+      "word": "white",
+      "pca_x": 0.261,
+      "pca_y": 0.7114,
+      "tsne_x": 0.2709,
+      "tsne_y": -3.6267
+    },
+    {
+      "word": "think",
+      "pca_x": -0.3511,
+      "pca_y": -0.3071,
+      "tsne_x": 0.2303,
+      "tsne_y": 1.2535
+    },
+    {
+      "word": "right",
+      "pca_x": 0.6032,
+      "pca_y": -0.6197,
+      "tsne_x": 2.7204,
+      "tsne_y": -3.3387
+    },
+    {
+      "word": "say",
+      "pca_x": -0.045,
+      "pca_y": -0.203,
+      "tsne_x": 0.7435,
+      "tsne_y": -0.5471
+    },
+    {
+      "word": "make",
+      "pca_x": -0.5547,
+      "pca_y": -0.4815,
+      "tsne_x": -4.5361,
+      "tsne_y": 0.7049
+    },
+    {
+      "word": "would",
+      "pca_x": -0.4284,
+      "pca_y": -0.5493,
+      "tsne_x": -1.5622,
+      "tsne_y": 0.7811
+    },
+    {
+      "word": "christian",
+      "pca_x": 1.8481,
+      "pca_y": -0.111,
+      "tsne_x": 2.8469,
+      "tsne_y": -3.9796
+    },
+    {
+      "word": "call",
+      "pca_x": -0.4765,
+      "pca_y": 0.4262,
+      "tsne_x": 5.12,
+      "tsne_y": -0.3255
+    },
+    {
+      "word": "go",
+      "pca_x": -0.6813,
+      "pca_y": 0.069,
+      "tsne_x": -1.2007,
+      "tsne_y": 2.818
+    },
+    {
+      "word": "time",
+      "pca_x": -0.2542,
+      "pca_y": -0.9489,
+      "tsne_x": 2.5669,
+      "tsne_y": 1.6843
+    },
+    {
+      "word": "got",
+      "pca_x": -0.5697,
+      "pca_y": -0.2068,
+      "tsne_x": 2.592,
+      "tsne_y": 3.0338
+    },
+    {
+      "word": "fucking",
+      "pca_x": -1.0771,
+      "pca_y": 1.0179,
+      "tsne_x": 5.704,
+      "tsne_y": 0.5723
+    },
+    {
+      "word": "even",
+      "pca_x": -0.1871,
+      "pca_y": -1.1066,
+      "tsne_x": -2.014,
+      "tsne_y": 0.6774
+    },
+    {
+      "word": "want",
+      "pca_x": -0.3013,
+      "pca_y": -0.2653,
+      "tsne_x": -2.3454,
+      "tsne_y": 1.6585
+    },
+    {
+      "word": "never",
+      "pca_x": 0.1813,
+      "pca_y": -0.7409,
+      "tsne_x": -0.2698,
+      "tsne_y": 3.3624
+    },
+    {
+      "word": "called",
+      "pca_x": -0.1125,
+      "pca_y": 0.0955,
+      "tsne_x": 0.8998,
+      "tsne_y": -3.1218
+    },
+    {
+      "word": "see",
+      "pca_x": -0.2337,
+      "pca_y": -0.4094,
+      "tsne_x": 0.0109,
+      "tsne_y": 1.2437
+    },
+    {
+      "word": "shit",
+      "pca_x": -0.8749,
+      "pca_y": 0.6424,
+      "tsne_x": 3.8899,
+      "tsne_y": 2.3195
+    },
+    {
+      "word": "ur",
+      "pca_x": 0.4107,
+      "pca_y": -0.1667,
+      "tsne_x": -2.3915,
+      "tsne_y": -0.6577
+    },
+    {
+      "word": "terrorist",
+      "pca_x": 2.5517,
+      "pca_y": 0.6973,
+      "tsne_x": -5.0306,
+      "tsne_y": -1.78
+    },
+    {
+      "word": "thing",
+      "pca_x": -0.2627,
+      "pca_y": -0.7976,
+      "tsne_x": 0.9261,
+      "tsne_y": 0.5641
+    },
+    {
+      "word": "still",
+      "pca_x": -0.3932,
+      "pca_y": -0.3186,
+      "tsne_x": 1.6504,
+      "tsne_y": 1.5334
+    },
+    {
+      "word": "hate",
+      "pca_x": -0.0083,
+      "pca_y": -0.0091,
+      "tsne_x": -1.6037,
+      "tsne_y": 4.1322
+    },
+    {
+      "word": "really",
+      "pca_x": -0.6272,
+      "pca_y": -0.4138,
+      "tsne_x": 0.5491,
+      "tsne_y": 1.2911
+    },
+    {
+      "word": "need",
+      "pca_x": -0.0908,
+      "pca_y": -0.2641,
+      "tsne_x": -3.2732,
+      "tsne_y": 1.6589
+    },
+    {
+      "word": "year",
+      "pca_x": 0.1338,
+      "pca_y": -0.7485,
+      "tsne_x": 0.6671,
+      "tsne_y": 6.0418
+    },
+    {
+      "word": "said",
+      "pca_x": -0.2377,
+      "pca_y": 0.0643,
+      "tsne_x": 1.1342,
+      "tsne_y": -1.0167
+    },
+    {
+      "word": "support",
+      "pca_x": 1.7819,
+      "pca_y": 0.1225,
+      "tsne_x": 2.8163,
+      "tsne_y": -4.6787
+    },
+    {
+      "word": "islam",
+      "pca_x": 2.1681,
+      "pca_y": 0.2609,
+      "tsne_x": -3.4282,
+      "tsne_y": -2.1975
+    },
+    {
+      "word": "first",
+      "pca_x": 0.0769,
+      "pca_y": -0.6053,
+      "tsne_x": -2.4677,
+      "tsne_y": -0.5915
+    },
+    {
+      "word": "islamic",
+      "pca_x": 3.4553,
+      "pca_y": 0.9979,
+      "tsne_x": 0.5152,
+      "tsne_y": -6.569
+    },
+    {
+      "word": "obama",
+      "pca_x": -0.0041,
+      "pca_y": 2.2938,
+      "tsne_x": 6.2931,
+      "tsne_y": 2.4281
+    },
+    {
+      "word": "look",
+      "pca_x": -0.6567,
+      "pca_y": -0.0567,
+      "tsne_x": 0.5305,
+      "tsne_y": 4.0751
+    },
+    {
+      "word": "man",
+      "pca_x": 0.1299,
+      "pca_y": -0.3851,
+      "tsne_x": 2.2848,
+      "tsne_y": -1.9643
+    },
+    {
+      "word": "bullying",
+      "pca_x": -0.2957,
+      "pca_y": 2.5145,
+      "tsne_x": 4.1793,
+      "tsne_y": 5.8466
+    },
+    {
+      "word": "mean",
+      "pca_x": -0.0497,
+      "pca_y": -0.2717,
+      "tsne_x": -0.5689,
+      "tsne_y": 1.5362
+    },
+    {
+      "word": "female",
+      "pca_x": -0.4184,
+      "pca_y": 0.8434,
+      "tsne_x": 5.164,
+      "tsne_y": -0.4018
+    },
+    {
+      "word": "friend",
+      "pca_x": -0.121,
+      "pca_y": -0.8568,
+      "tsne_x": 1.6609,
+      "tsne_y": 4.2409
+    },
+    {
+      "word": "also",
+      "pca_x": 0.1397,
+      "pca_y": -0.8687,
+      "tsne_x": -0.6833,
+      "tsne_y": 0.6098
+    },
+    {
+      "word": "kid",
+      "pca_x": -0.2532,
+      "pca_y": -0.3096,
+      "tsne_x": 3.5719,
+      "tsne_y": 4.3829
+    },
+    {
+      "word": "guy",
+      "pca_x": -0.0858,
+      "pca_y": -0.6719,
+      "tsne_x": 0.093,
+      "tsne_y": 0.114
+    },
+    {
+      "word": "life",
+      "pca_x": 0.0897,
+      "pca_y": -0.5633,
+      "tsne_x": -3.227,
+      "tsne_y": 4.6784
+    },
+    {
+      "word": "good",
+      "pca_x": -0.1737,
+      "pca_y": -0.5432,
+      "tsne_x": 1.2835,
+      "tsne_y": 2.4241
+    },
+    {
+      "word": "terrorism",
+      "pca_x": 3.413,
+      "pca_y": 0.749,
+      "tsne_x": 0.5125,
+      "tsne_y": -6.5693
+    },
+    {
+      "word": "anything",
+      "pca_x": -0.2165,
+      "pca_y": -0.1775,
+      "tsne_x": -1.6217,
+      "tsne_y": -5.2576
+    },
+    {
+      "word": "cant",
+      "pca_x": -0.2189,
+      "pca_y": -0.2146,
+      "tsne_x": -2.5637,
+      "tsne_y": 2.2943
+    },
+    {
+      "word": "love",
+      "pca_x": -0.437,
+      "pca_y": -0.4651,
+      "tsne_x": -1.0979,
+      "tsne_y": 4.1219
+    },
+    {
+      "word": "back",
+      "pca_x": -0.4465,
+      "pca_y": -0.1362,
+      "tsne_x": 0.7145,
+      "tsne_y": 3.0202
+    },
+    {
+      "word": "way",
+      "pca_x": -0.0731,
+      "pca_y": -0.7426,
+      "tsne_x": 0.6288,
+      "tsne_y": 1.4837
+    },
+    {
+      "word": "day",
+      "pca_x": -0.2397,
+      "pca_y": -0.6469,
+      "tsne_x": 2.4144,
+      "tsne_y": 1.6428
+    },
+    {
+      "word": "racist",
+      "pca_x": 0.0697,
+      "pca_y": 0.7261,
+      "tsne_x": -0.4126,
+      "tsne_y": -3.6386
+    },
+    {
+      "word": "lol",
+      "pca_x": -0.7677,
+      "pca_y": 0.1626,
+      "tsne_x": 1.1212,
+      "tsne_y": 1.0684
+    },
+    {
+      "word": "stop",
+      "pca_x": -0.306,
+      "pca_y": -0.5209,
+      "tsne_x": -0.0957,
+      "tsne_y": -1.7305
+    },
+    {
+      "word": "thats",
+      "pca_x": -0.3772,
+      "pca_y": -0.0019,
+      "tsne_x": 1.1941,
+      "tsne_y": 1.3474
+    },
+    {
+      "word": "radical",
+      "pca_x": 2.6859,
+      "pca_y": 0.428,
+      "tsne_x": 2.825,
+      "tsne_y": -4.7021
+    },
+    {
+      "word": "against",
+      "pca_x": 1.0253,
+      "pca_y": -0.3885,
+      "tsne_x": -4.4019,
+      "tsne_y": 2.6651
+    },
+    {
+      "word": "youre",
+      "pca_x": -0.8061,
+      "pca_y": -0.255,
+      "tsne_x": 2.3595,
+      "tsne_y": 0.3048
+    },
+    {
+      "word": "sexist",
+      "pca_x": 0.067,
+      "pca_y": 0.9655,
+      "tsne_x": 3.4046,
+      "tsne_y": -1.0179
+    },
+    {
+      "word": "men",
+      "pca_x": 0.1208,
+      "pca_y": -0.4416,
+      "tsne_x": 2.8658,
+      "tsne_y": -1.9896
+    },
+    {
+      "word": "made",
+      "pca_x": -0.4421,
+      "pca_y": -0.5984,
+      "tsne_x": -4.5112,
+      "tsne_y": 0.7001
+    },
+    {
+      "word": "someone",
+      "pca_x": -0.4312,
+      "pca_y": -0.5748,
+      "tsne_x": -0.5743,
+      "tsne_y": -1.1138
+    },
+    {
+      "word": "word",
+      "pca_x": -0.0936,
+      "pca_y": -0.2887,
+      "tsne_x": 0.8089,
+      "tsne_y": -1.6084
+    },
+    {
+      "word": "going",
+      "pca_x": -0.1761,
+      "pca_y": -0.1351,
+      "tsne_x": -1.2763,
+      "tsne_y": 2.4416
+    },
+    {
+      "word": "every",
+      "pca_x": -0.2312,
+      "pca_y": -0.6509,
+      "tsne_x": -1.1927,
+      "tsne_y": -0.4236
+    },
+    {
+      "word": "bad",
+      "pca_x": -0.1285,
+      "pca_y": -0.3586,
+      "tsne_x": 1.3765,
+      "tsne_y": 2.5769
+    },
+    {
+      "word": "funny",
+      "pca_x": -0.5167,
+      "pca_y": -0.0029,
+      "tsne_x": -4.3181,
+      "tsne_y": -4.451
+    },
+    {
+      "word": "na",
+      "pca_x": -0.7705,
+      "pca_y": 1.1239,
+      "tsne_x": -3.0521,
+      "tsne_y": 3.3279
+    },
+    {
+      "word": "racism",
+      "pca_x": 1.0868,
+      "pca_y": 0.9922,
+      "tsne_x": -0.6872,
+      "tsne_y": -3.7077
+    },
+    {
+      "word": "take",
+      "pca_x": -0.5656,
+      "pca_y": -0.2304,
+      "tsne_x": -2.1264,
+      "tsne_y": 3.1592
+    },
+    {
+      "word": "name",
+      "pca_x": 0.4989,
+      "pca_y": -0.5566,
+      "tsne_x": -3.03,
+      "tsne_y": 0.2199
+    },
+    {
+      "word": "let",
+      "pca_x": -0.0571,
+      "pca_y": -0.1826,
+      "tsne_x": -1.6015,
+      "tsne_y": 2.2096
+    },
+    {
+      "word": "much",
+      "pca_x": -0.2242,
+      "pca_y": -0.9902,
+      "tsne_x": -1.0543,
+      "tsne_y": 1.2378
+    },
+    {
+      "word": "world",
+      "pca_x": 1.3249,
+      "pca_y": -0.1983,
+      "tsne_x": -2.9278,
+      "tsne_y": -2.0423
+    },
+    {
+      "word": "always",
+      "pca_x": -0.3242,
+      "pca_y": -0.6056,
+      "tsne_x": 0.4104,
+      "tsne_y": 2.4614
+    },
+    {
+      "word": "country",
+      "pca_x": 1.1927,
+      "pca_y": -0.2304,
+      "tsne_x": -2.5588,
+      "tsne_y": -2.1025
+    },
+    {
+      "word": "saying",
+      "pca_x": -0.0699,
+      "pca_y": -0.124,
+      "tsne_x": 0.6662,
+      "tsne_y": -0.8275
+    },
+    {
+      "word": "isi",
+      "pca_x": 2.17,
+      "pca_y": 0.6499,
+      "tsne_x": -5.0012,
+      "tsne_y": -1.7852
+    },
+    {
+      "word": "many",
+      "pca_x": 0.195,
+      "pca_y": -0.8191,
+      "tsne_x": -0.9181,
+      "tsne_y": 0.3771
+    },
+    {
+      "word": "tell",
+      "pca_x": -0.0955,
+      "pca_y": -0.1634,
+      "tsne_x": 0.8396,
+      "tsne_y": -0.2975
+    },
+    {
+      "word": "well",
+      "pca_x": 0.147,
+      "pca_y": -0.3848,
+      "tsne_x": 0.4191,
+      "tsne_y": 1.8887
+    },
+    {
+      "word": "past",
+      "pca_x": 0.2256,
+      "pca_y": 0.2424,
+      "tsne_x": -1.6174,
+      "tsne_y": -5.2613
+    },
+    {
+      "word": "middle",
+      "pca_x": -0.1179,
+      "pca_y": -0.094,
+      "tsne_x": 2.5866,
+      "tsne_y": 5.5256
+    },
+    {
+      "word": "person",
+      "pca_x": -0.0744,
+      "pca_y": -0.6923,
+      "tsne_x": -0.4092,
+      "tsne_y": -0.8509
+    },
+    {
+      "word": "god",
+      "pca_x": 0.1436,
+      "pca_y": -0.5059,
+      "tsne_x": -1.5147,
+      "tsne_y": 5.632
+    },
+    {
+      "word": "ever",
+      "pca_x": -0.1291,
+      "pca_y": -0.4673,
+      "tsne_x": -0.2082,
+      "tsne_y": 2.7739
+    },
+    {
+      "word": "oh",
+      "pca_x": -0.7679,
+      "pca_y": -0.1957,
+      "tsne_x": 1.5084,
+      "tsne_y": 0.6419
+    },
+    {
+      "word": "feel",
+      "pca_x": -0.5905,
+      "pca_y": -0.3395,
+      "tsne_x": 0.5661,
+      "tsne_y": 3.9282
+    },
+    {
+      "word": "come",
+      "pca_x": -0.2487,
+      "pca_y": -0.5343,
+      "tsne_x": -0.2551,
+      "tsne_y": 1.9789
+    }
+  ]
+}

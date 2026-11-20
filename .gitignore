@@ -1,0 +1,30 @@
+# Environments
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node
+node_modules/
+frontend/dist/
+frontend/build/
+.npm/
+
+# Data and models (large files)
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.tar.gz
+saved_models/*.pt
+saved_models/*.bin
+saved_models/*.safetensors
+saved_models/bert_finetuned/
+
+# OS and IDE
+.DS_Store
+.vscode/
+.idea/
+*.log
+

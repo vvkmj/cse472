@@ -1,0 +1,750 @@
+{
+  "logistic_regression": {
+    "age": [
+      {
+        "word": "school",
+        "weight": 18.3523
+      },
+      {
+        "word": "high",
+        "weight": 8.3429
+      },
+      {
+        "word": "girl",
+        "weight": 7.8043
+      },
+      {
+        "word": "bully",
+        "weight": 7.5822
+      },
+      {
+        "word": "bullied",
+        "weight": 7.306
+      },
+      {
+        "word": "school bully",
+        "weight": 6.525
+      },
+      {
+        "word": "high school",
+        "weight": 4.3378
+      },
+      {
+        "word": "bully school",
+        "weight": 4.2678
+      },
+      {
+        "word": "kid",
+        "weight": 3.5743
+      },
+      {
+        "word": "teacher",
+        "weight": 2.8837
+      },
+      {
+        "word": "girl bullied",
+        "weight": 2.7325
+      },
+      {
+        "word": "adult",
+        "weight": 2.5735
+      },
+      {
+        "word": "middle",
+        "weight": 2.5122
+      },
+      {
+        "word": "middle school",
+        "weight": 2.3755
+      },
+      {
+        "word": "grade",
+        "weight": 2.3641
+      }
+    ],
+    "ethnicity": [
+      {
+        "word": "nigger",
+        "weight": 14.5421
+      },
+      {
+        "word": "dumb",
+        "weight": 11.7594
+      },
+      {
+        "word": "black",
+        "weight": 8.6248
+      },
+      {
+        "word": "ur",
+        "weight": 8.0421
+      },
+      {
+        "word": "past",
+        "weight": 8.035
+      },
+      {
+        "word": "negro",
+        "weight": 7.6038
+      },
+      {
+        "word": "racism",
+        "weight": 7.3438
+      },
+      {
+        "word": "colored",
+        "weight": 7.0177
+      },
+      {
+        "word": "first",
+        "weight": 6.8381
+      },
+      {
+        "word": "white",
+        "weight": 6.3501
+      },
+      {
+        "word": "nigga",
+        "weight": 5.5879
+      },
+      {
+        "word": "anything",
+        "weight": 5.4995
+      },
+      {
+        "word": "called",
+        "weight": 5.2412
+      },
+      {
+        "word": "fuck",
+        "weight": 5.2184
+      },
+      {
+        "word": "disgusting",
+        "weight": 3.8023
+      }
+    ],
+    "gender": [
+      {
+        "word": "joke",
+        "weight": 9.8169
+      },
+      {
+        "word": "rape",
+        "weight": 9.7726
+      },
+      {
+        "word": "gay",
+        "weight": 9.4938
+      },
+      {
+        "word": "female",
+        "weight": 7.3839
+      },
+      {
+        "word": "bitch",
+        "weight": 6.1982
+      },
+      {
+        "word": "feminazi",
+        "weight": 6.0384
+      },
+      {
+        "word": "notsexist",
+        "weight": 5.9638
+      },
+      {
+        "word": "sexist",
+        "weight": 5.915
+      },
+      {
+        "word": "kat",
+        "weight": 4.8775
+      },
+      {
+        "word": "mkr",
+        "weight": 4.8615
+      },
+      {
+        "word": "rape joke",
+        "weight": 4.0601
+      },
+      {
+        "word": "not sexist",
+        "weight": 4.0397
+      },
+      {
+        "word": "feminist",
+        "weight": 3.6117
+      },
+      {
+        "word": "call",
+        "weight": 3.5602
+      },
+      {
+        "word": "rt",
+        "weight": 3.39
+      }
+    ],
+    "not_cyberbullying": [
+      {
+        "word": "mkr",
+        "weight": 5.2092
+      },
+      {
+        "word": "bullying",
+        "weight": 3.0725
+      },
+      {
+        "word": "mosul",
+        "weight": 2.5538
+      },
+      {
+        "word": "class",
+        "weight": 2.5321
+      },
+      {
+        "word": "daesh",
+        "weight": 2.2718
+      },
+      {
+        "word": "kat andre",
+        "weight": 2.1168
+      },
+      {
+        "word": "college",
+        "weight": 2.101
+      },
+      {
+        "word": "de",
+        "weight": 1.948
+      },
+      {
+        "word": "andre",
+        "weight": 1.8979
+      },
+      {
+        "word": "que",
+        "weight": 1.7916
+      },
+      {
+        "word": "yesallwomen",
+        "weight": 1.7568
+      },
+      {
+        "word": "beatdown",
+        "weight": 1.4415
+      },
+      {
+        "word": "bully beatdown",
+        "weight": 1.4415
+      },
+      {
+        "word": "di",
+        "weight": 1.4146
+      },
+      {
+        "word": "bulling",
+        "weight": 1.3341
+      }
+    ],
+    "other_cyberbullying": [
+      {
+        "word": "bully",
+        "weight": 4.6691
+      },
+      {
+        "word": "idiot",
+        "weight": 4.0501
+      },
+      {
+        "word": "blameonenotall",
+        "weight": 3.8902
+      },
+      {
+        "word": "fucking",
+        "weight": 2.9506
+      },
+      {
+        "word": "bullied",
+        "weight": 2.521
+      },
+      {
+        "word": "feminazi",
+        "weight": 2.0799
+      },
+      {
+        "word": "ive",
+        "weight": 1.9376
+      },
+      {
+        "word": "bullying",
+        "weight": 1.9271
+      },
+      {
+        "word": "im",
+        "weight": 1.8671
+      },
+      {
+        "word": "rt",
+        "weight": 1.7283
+      },
+      {
+        "word": "code",
+        "weight": 1.6913
+      },
+      {
+        "word": "gamergate",
+        "weight": 1.6714
+      },
+      {
+        "word": "kickstarter",
+        "weight": 1.6648
+      },
+      {
+        "word": "perl",
+        "weight": 1.6428
+      },
+      {
+        "word": "harassment",
+        "weight": 1.6224
+      }
+    ],
+    "religion": [
+      {
+        "word": "muslim",
+        "weight": 16.4979
+      },
+      {
+        "word": "christian",
+        "weight": 9.7815
+      },
+      {
+        "word": "idiot",
+        "weight": 8.2933
+      },
+      {
+        "word": "christian woman",
+        "weight": 7.6629
+      },
+      {
+        "word": "islam",
+        "weight": 7.3168
+      },
+      {
+        "word": "terrorist",
+        "weight": 6.2687
+      },
+      {
+        "word": "islamic",
+        "weight": 6.1967
+      },
+      {
+        "word": "radical",
+        "weight": 6.1074
+      },
+      {
+        "word": "terrorism",
+        "weight": 5.6975
+      },
+      {
+        "word": "quran",
+        "weight": 5.1546
+      },
+      {
+        "word": "islamic terrorism",
+        "weight": 4.6385
+      },
+      {
+        "word": "religion",
+        "weight": 4.4743
+      },
+      {
+        "word": "mohammed",
+        "weight": 4.4706
+      },
+      {
+        "word": "jihad",
+        "weight": 4.2633
+      },
+      {
+        "word": "support",
+        "weight": 4.193
+      }
+    ]
+  },
+  "linear_svm": {
+    "age": [
+      {
+        "word": "school",
+        "weight": 6.47
+      },
+      {
+        "word": "school bully",
+        "weight": 4.987
+      },
+      {
+        "word": "high",
+        "weight": 4.28
+      },
+      {
+        "word": "girl",
+        "weight": 3.6371
+      },
+      {
+        "word": "bully school",
+        "weight": 3.4945
+      },
+      {
+        "word": "adult",
+        "weight": 2.2882
+      },
+      {
+        "word": "bullied",
+        "weight": 2.2695
+      },
+      {
+        "word": "teacher",
+        "weight": 2.0037
+      },
+      {
+        "word": "school yard",
+        "weight": 1.9272
+      },
+      {
+        "word": "girl bullied",
+        "weight": 1.8654
+      },
+      {
+        "word": "used bully",
+        "weight": 1.7784
+      },
+      {
+        "word": "kid",
+        "weight": 1.7174
+      },
+      {
+        "word": "middle school",
+        "weight": 1.7129
+      },
+      {
+        "word": "luca",
+        "weight": 1.6617
+      },
+      {
+        "word": "well bully",
+        "weight": 1.5935
+      }
+    ],
+    "ethnicity": [
+      {
+        "word": "nigger",
+        "weight": 8.4906
+      },
+      {
+        "word": "dumb",
+        "weight": 5.8105
+      },
+      {
+        "word": "colored",
+        "weight": 5.0824
+      },
+      {
+        "word": "negro",
+        "weight": 4.6875
+      },
+      {
+        "word": "past",
+        "weight": 4.4867
+      },
+      {
+        "word": "ur",
+        "weight": 4.0015
+      },
+      {
+        "word": "black",
+        "weight": 3.7868
+      },
+      {
+        "word": "nigga",
+        "weight": 3.1804
+      },
+      {
+        "word": "racism",
+        "weight": 3.0638
+      },
+      {
+        "word": "first",
+        "weight": 3.0304
+      },
+      {
+        "word": "incident",
+        "weight": 2.5255
+      },
+      {
+        "word": "white",
+        "weight": 2.5166
+      },
+      {
+        "word": "called",
+        "weight": 2.325
+      },
+      {
+        "word": "anything",
+        "weight": 2.1592
+      },
+      {
+        "word": "niger",
+        "weight": 1.9839
+      }
+    ],
+    "gender": [
+      {
+        "word": "rape",
+        "weight": 5.7903
+      },
+      {
+        "word": "gay",
+        "weight": 4.8712
+      },
+      {
+        "word": "notsexist",
+        "weight": 4.317
+      },
+      {
+        "word": "female",
+        "weight": 4.2696
+      },
+      {
+        "word": "joke",
+        "weight": 3.9736
+      },
+      {
+        "word": "bitch",
+        "weight": 3.172
+      },
+      {
+        "word": "sexist",
+        "weight": 2.9156
+      },
+      {
+        "word": "kat",
+        "weight": 2.7479
+      },
+      {
+        "word": "questionsformen",
+        "weight": 2.5536
+      },
+      {
+        "word": "feminazis",
+        "weight": 2.4934
+      },
+      {
+        "word": "not sexist",
+        "weight": 2.4523
+      },
+      {
+        "word": "feminazi",
+        "weight": 2.3121
+      },
+      {
+        "word": "bimbo",
+        "weight": 2.3038
+      },
+      {
+        "word": "feminist",
+        "weight": 2.2086
+      },
+      {
+        "word": "rape joke",
+        "weight": 2.0374
+      }
+    ],
+    "not_cyberbullying": [
+      {
+        "word": "mosul",
+        "weight": 2.2587
+      },
+      {
+        "word": "yesallwomen",
+        "weight": 1.9514
+      },
+      {
+        "word": "kat andre",
+        "weight": 1.822
+      },
+      {
+        "word": "class",
+        "weight": 1.5726
+      },
+      {
+        "word": "daesh",
+        "weight": 1.5649
+      },
+      {
+        "word": "college",
+        "weight": 1.5525
+      },
+      {
+        "word": "xmas",
+        "weight": 1.5328
+      },
+      {
+        "word": "itreallymakesmemad",
+        "weight": 1.4434
+      },
+      {
+        "word": "npo",
+        "weight": 1.4203
+      },
+      {
+        "word": "mkr",
+        "weight": 1.4201
+      },
+      {
+        "word": "against bullying",
+        "weight": 1.4122
+      },
+      {
+        "word": "darn",
+        "weight": 1.4121
+      },
+      {
+        "word": "putin",
+        "weight": 1.368
+      },
+      {
+        "word": "islam muslim",
+        "weight": 1.3348
+      },
+      {
+        "word": "know someone",
+        "weight": 1.3285
+      }
+    ],
+    "other_cyberbullying": [
+      {
+        "word": "blameonenotall",
+        "weight": 3.1327
+      },
+      {
+        "word": "idiot",
+        "weight": 2.1059
+      },
+      {
+        "word": "called feminazi",
+        "weight": 2.006
+      },
+      {
+        "word": "call feminazi",
+        "weight": 1.861
+      },
+      {
+        "word": "word feminazi",
+        "weight": 1.7962
+      },
+      {
+        "word": "jeff",
+        "weight": 1.7478
+      },
+      {
+        "word": "fucking",
+        "weight": 1.7158
+      },
+      {
+        "word": "cyber",
+        "weight": 1.6908
+      },
+      {
+        "word": "kickstarter",
+        "weight": 1.6183
+      },
+      {
+        "word": "able help",
+        "weight": 1.5992
+      },
+      {
+        "word": "stoprush",
+        "weight": 1.5935
+      },
+      {
+        "word": "feminazi dont",
+        "weight": 1.5816
+      },
+      {
+        "word": "concern",
+        "weight": 1.5607
+      },
+      {
+        "word": "male female",
+        "weight": 1.517
+      },
+      {
+        "word": "perl",
+        "weight": 1.516
+      }
+    ],
+    "religion": [
+      {
+        "word": "muslim",
+        "weight": 9.2115
+      },
+      {
+        "word": "christian woman",
+        "weight": 5.7685
+      },
+      {
+        "word": "christian",
+        "weight": 4.7615
+      },
+      {
+        "word": "radical",
+        "weight": 4.2286
+      },
+      {
+        "word": "quran",
+        "weight": 3.1508
+      },
+      {
+        "word": "terrorism",
+        "weight": 3.0869
+      },
+      {
+        "word": "islam",
+        "weight": 2.9726
+      },
+      {
+        "word": "terrorist",
+        "weight": 2.9597
+      },
+      {
+        "word": "islamic",
+        "weight": 2.9253
+      },
+      {
+        "word": "mohammed",
+        "weight": 2.8617
+      },
+      {
+        "word": "islamic terrorism",
+        "weight": 2.7406
+      },
+      {
+        "word": "jihad",
+        "weight": 2.5494
+      },
+      {
+        "word": "religion",
+        "weight": 2.5459
+      },
+      {
+        "word": "islamolunatics",
+        "weight": 2.3444
+      },
+      {
+        "word": "idiot",
+        "weight": 2.1963
+      }
+    ]
+  }
+}

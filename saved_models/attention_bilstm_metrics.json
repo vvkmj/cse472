@@ -1,0 +1,119 @@
+{
+  "model_name": "Attention-BiLSTM",
+  "accuracy": 0.841,
+  "precision_macro": 0.8383,
+  "recall_macro": 0.8361,
+  "f1_macro": 0.833,
+  "precision_weighted": 0.8506,
+  "recall_weighted": 0.841,
+  "f1_weighted": 0.842,
+  "confusion_matrix": [
+    [
+      1171,
+      1,
+      1,
+      19,
+      6,
+      1
+    ],
+    [
+      2,
+      1163,
+      5,
+      7,
+      13,
+      3
+    ],
+    [
+      3,
+      6,
+      963,
+      105,
+      99,
+      6
+    ],
+    [
+      26,
+      4,
+      18,
+      643,
+      422,
+      62
+    ],
+    [
+      14,
+      6,
+      42,
+      163,
+      676,
+      14
+    ],
+    [
+      3,
+      2,
+      3,
+      18,
+      17,
+      1156
+    ]
+  ],
+  "class_report": {
+    "age": {
+      "precision": 0.9606234618539786,
+      "recall": 0.9766472060050042,
+      "f1-score": 0.9685690653432589,
+      "support": 1199.0
+    },
+    "ethnicity": {
+      "precision": 0.9839255499153976,
+      "recall": 0.9748533109807209,
+      "f1-score": 0.9793684210526316,
+      "support": 1193.0
+    },
+    "gender": {
+      "precision": 0.9331395348837209,
+      "recall": 0.8147208121827412,
+      "f1-score": 0.8699186991869918,
+      "support": 1182.0
+    },
+    "not_cyberbullying": {
+      "precision": 0.6732984293193718,
+      "recall": 0.5472340425531915,
+      "f1-score": 0.603755868544601,
+      "support": 1175.0
+    },
+    "other_cyberbullying": {
+      "precision": 0.5482562854825629,
+      "recall": 0.7387978142076502,
+      "f1-score": 0.6294227188081937,
+      "support": 915.0
+    },
+    "religion": {
+      "precision": 0.9307568438003221,
+      "recall": 0.9641367806505421,
+      "f1-score": 0.9471528062269562,
+      "support": 1199.0
+    },
+    "accuracy": 0.8410316188255865,
+    "macro avg": {
+      "precision": 0.8383333508758923,
+      "recall": 0.8360649944299752,
+      "f1-score": 0.8330312631937722,
+      "support": 6863.0
+    },
+    "weighted avg": {
+      "precision": 0.8505521278490371,
+      "recall": 0.8410316188255865,
+      "f1-score": 0.8420393247875427,
+      "support": 6863.0
+    }
+  },
+  "class_names": [
+    "age",
+    "ethnicity",
+    "gender",
+    "not_cyberbullying",
+    "other_cyberbullying",
+    "religion"
+  ]
+}

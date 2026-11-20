@@ -1,0 +1,11 @@
+{
+  "name": "shieldtext-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ShieldText: NLP-Based Cyberbullying Detection System",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "npm --prefix frontend run dev"
+  }
+}
+

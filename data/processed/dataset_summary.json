@@ -1,0 +1,40 @@
+{
+  "initial_raw_records": 47692,
+  "duplicate_records_removed": 1675,
+  "valid_processed_records": 45749,
+  "train_records": 32024,
+  "val_records": 6862,
+  "test_records": 6863,
+  "label2id": {
+    "age": 0,
+    "ethnicity": 1,
+    "gender": 2,
+    "not_cyberbullying": 3,
+    "other_cyberbullying": 4,
+    "religion": 5
+  },
+  "id2label": {
+    "0": "age",
+    "1": "ethnicity",
+    "2": "gender",
+    "3": "not_cyberbullying",
+    "4": "other_cyberbullying",
+    "5": "religion"
+  },
+  "train_class_distribution": {
+    "religion": 5597,
+    "age": 5594,
+    "ethnicity": 5565,
+    "gender": 5513,
+    "not_cyberbullying": 5483,
+    "other_cyberbullying": 4272
+  },
+  "test_class_distribution": {
+    "age": 1199,
+    "religion": 1199,
+    "ethnicity": 1193,
+    "gender": 1182,
+    "not_cyberbullying": 1175,
+    "other_cyberbullying": 915
+  }
+}
