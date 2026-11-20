@@ -163,3 +163,20 @@ def test_pdf_download_endpoints():
     assert resp2.headers["content-type"] == "application/pdf"
     assert len(resp2.content) > 10000
 
+
+def test_exported_model_engine_integrity():
+    """Verify exported statistical model engine exists and has full feature coverage."""
+    import json
+    engine_path = os.path.join(
+        os.path.dirname(os.path.dirname(__file__)), "netlify", "functions", "model_engine.json"
+    )
+    assert os.path.exists(engine_path), "model_engine.json must exist in netlify/functions"
+    with open(engine_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    assert "vocabulary" in data
+    assert len(data["vocabulary"]) >= 15000
+    assert len(data["classes"]) == 6
+    assert len(data["lr_intercept"]) == 6
+    assert len(data["svm_intercept"]) == 6
+
+

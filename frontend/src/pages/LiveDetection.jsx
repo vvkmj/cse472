@@ -4,7 +4,7 @@ import { apiFetch } from '../api/client';
 
 export default function LiveDetection() {
   const [text, setText] = useState('');
-  const [modelId, setModelId] = useState('bilstm');
+  const [modelId, setModelId] = useState('logistic_regression');
   const [models, setModels] = useState([]);
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
@@ -24,20 +24,28 @@ export default function LiveDetection() {
       text: 'You are such a loser in high school nobody wants to sit with you at lunch haha dumb kid',
     },
     {
-      title: 'Benign Negative Language',
+      title: 'Ethno-Racial Harassment',
+      text: 'Get out of here you dirty immigrant and racist white supremacist dumb niggers',
+    },
+    {
+      title: 'Gender-Targeted Harassment',
+      text: 'Call me sexist but this dumb bitch and stupid whore needs to shut up and stay in the kitchen',
+    },
+    {
+      title: 'Religious Discrimination',
+      text: 'All muslim radical jihadists and terrorists should be eliminated immediately',
+    },
+    {
+      title: 'Extreme Cyberbullying / Self-Harm',
+      text: 'Kill yourself you worthless ugly freak, go die and hang yourself',
+    },
+    {
+      title: 'Benign Negative Language (Non-Bullying)',
       text: 'The weather today is terrible and my bus was late, but the lecture was helpful!',
     },
     {
-      title: 'Ethno-Racial Harassment',
-      text: 'People of your ethnic background should go back to where you came from, get out',
-    },
-    {
-      title: 'Gender-Targeted Bullying',
-      text: 'Girls have no brain for coding or technical engineering, stay out of technology',
-    },
-    {
       title: 'Neutral Friendly Message',
-      text: 'Hey everyone, let us meet up in the library at 5 PM to finish our CSE472 project!',
+      text: 'Good morning everyone, let us work together on our NLP project in the library today!',
     },
   ];
 

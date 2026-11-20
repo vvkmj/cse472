@@ -187,6 +187,14 @@ npm run dev
 ```
 Access the Vite dev server at [http://localhost:3000](http://localhost:3000).
 
+### Option C: Netlify & Cloud Serverless Deployment
+ShieldText includes a self-contained, high-performance statistical machine learning engine (`inferenceEngine.js` and `netlify/functions/api.js`) powered by the **real trained 15,005-feature TF-IDF and multi-class Logistic Regression/Linear SVM weights**:
+- **Zero Python/PyTorch Dependency on Netlify:** Deploys instantly to Netlify, Vercel, or GitHub Pages.
+- **Accurate Real-Time Predictions:** Accurate multi-class classification and token attribution directly in serverless functions or client-side browser execution.
+- **Optional Cloud PyTorch Backend:** Deploy the FastAPI server using the included `Dockerfile` or `render.yaml` on Render/Railway, and configure `VITE_API_BASE_URL` in Netlify to connect live deep learning inference.
+- See detailed instructions in **[docs/NETLIFY_DEPLOYMENT.md](docs/NETLIFY_DEPLOYMENT.md)**.
+
+
 ---
 
 ## 🛡️ Responsible AI & Ethical Safeguards
