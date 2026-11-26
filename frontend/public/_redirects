@@ -1,12 +1,15 @@
 # Netlify Redirects for ShieldText Single Page Application
 
 # Static PDF documents
-/api/info/presentation-pdf   /docs/ShieldText_Class_Presentation.pdf   302
-/api/info/report-pdf         /docs/ShieldText_Detailed_Report.pdf     302
+/api/info/presentation-pdf   /docs/ShieldText_Class_Presentation.pdf   200!
+/api/info/report-pdf         /docs/ShieldText_Detailed_Report.pdf     200!
 
-# API routes to Netlify Function if deployed with functions
+# Health check and exact /api root route
+/health                      /.netlify/functions/api/health           200!
+/api                         /.netlify/functions/api                  200!
+
+# API routes to Netlify Function
 /api/*                       /.netlify/functions/api/:splat           200
 
 # React SPA Fallback: All page routes fallback to index.html
 /*                           /index.html                              200
-

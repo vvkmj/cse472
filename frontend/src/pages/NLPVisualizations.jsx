@@ -212,7 +212,7 @@ export default function NLPVisualizations() {
       </div>
 
       {/* Preprocessing Pipeline Breakdown & Academic Tradeoffs */}
-      {prepDemo && (
+      {prepDemo?.demonstration && (
         <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
           <div>
             <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
@@ -234,11 +234,11 @@ export default function NLPVisualizations() {
             </div>
             <div className="p-3 bg-slate-50 rounded-xl border border-slate-200">
               <span className="text-slate-400 block text-[10px] uppercase font-sans font-bold">3. Punctuation Cleaned & Tokenized</span>
-              <span className="text-slate-800">[{prepDemo.demonstration.step4_tokens.slice(0, 10).join(', ')}...]</span>
+              <span className="text-slate-800">[{(prepDemo.demonstration.step4_tokens || []).slice(0, 10).join(', ')}...]</span>
             </div>
             <div className="p-3 bg-slate-50 rounded-xl border border-slate-200">
               <span className="text-slate-400 block text-[10px] uppercase font-sans font-bold">4. Stopwords Filtered (Preserving Negations!)</span>
-              <span className="text-blue-700 font-semibold">[{prepDemo.demonstration.step5_stopwords_filtered_preserving_negation.join(', ')}]</span>
+              <span className="text-blue-700 font-semibold">[{(prepDemo.demonstration.step5_stopwords_filtered_preserving_negation || []).join(', ')}]</span>
             </div>
             <div className="p-3 bg-blue-50 rounded-xl border border-blue-200">
               <span className="text-blue-500 block text-[10px] uppercase font-sans font-bold">5. Classical Models Final Lemmatized Vector</span>
@@ -249,7 +249,7 @@ export default function NLPVisualizations() {
           <div className="pt-4 border-t border-slate-100">
             <h3 className="text-sm font-bold text-slate-800 mb-3">Academic Preprocessing Trade-offs</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {Object.entries(prepDemo.tradeoffs).map(([title, desc]) => (
+              {Object.entries(prepDemo.tradeoffs || {}).map(([title, desc]) => (
                 <div key={title} className="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-1">
                   <span className="font-bold text-xs text-slate-800">{title}</span>
                   <p className="text-xs text-slate-600 leading-relaxed">{desc}</p>

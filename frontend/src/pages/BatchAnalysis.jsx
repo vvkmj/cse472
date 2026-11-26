@@ -18,7 +18,7 @@ export default function BatchAnalysis() {
 
   const handleFileChange = (e) => {
     const selected = e.target.files[0];
-    if (selected && selected.name.endsWith('.csv')) {
+    if (selected && selected.name.toLowerCase().endsWith('.csv')) {
       setFile(selected);
       setError(null);
     } else {
@@ -167,7 +167,7 @@ export default function BatchAnalysis() {
             <div>
               <h2 className="text-xl font-bold text-slate-900">Batch Processing Summary</h2>
               <p className="text-xs text-slate-500 mt-0.5">
-                Processed {result.total_records_processed} rows from <code>{result.filename}</code> using column <code>{result.text_column_used}</code>
+                Processed {result.total_records_processed} rows from <code>{result.filename || file?.name || 'uploaded.csv'}</code> using column <code>{result.text_column_used || 'text'}</code>
               </p>
             </div>
             <button
@@ -200,7 +200,7 @@ export default function BatchAnalysis() {
               Category Distribution
             </span>
             <div className="flex flex-wrap gap-2">
-              {Object.entries(result.category_distribution).map(([cat, count]) => (
+              {Object.entries(result.category_distribution || {}).map(([cat, count]) => (
                 <div key={cat} className="px-3 py-1.5 rounded-xl bg-slate-100 text-xs font-semibold text-slate-700 border border-slate-200">
                   <span className="capitalize">{cat.replace('_', ' ')}:</span> <span className="text-blue-600">{count}</span>
                 </div>
@@ -221,7 +221,7 @@ export default function BatchAnalysis() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
-                {result.records.map((r) => (
+                {(result.records || []).map((r) => (
                   <tr key={r.row_id} className="hover:bg-slate-50/80 transition">
                     <td className="py-2.5 px-4 font-mono text-slate-400">{r.row_id}</td>
                     <td className="py-2.5 px-4 font-medium text-slate-800 max-w-md truncate">

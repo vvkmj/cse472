@@ -127,6 +127,7 @@ export default function LiveDetection() {
 
             <textarea
               rows={5}
+              maxLength={2000}
               value={text}
               onChange={(e) => setText(e.target.value)}
               placeholder="Paste or write a social media comment, chat message, or tweet here..."
@@ -337,19 +338,37 @@ export default function LiveDetection() {
                         Linear model class coefficients for constituent n-grams:
                       </p>
                       <div className="flex flex-wrap gap-2">
-                        {result.explanation.token_attributions.map((item, idx) => (
-                          <span
-                            key={idx}
-                            className="px-2.5 py-1 rounded-lg bg-blue-50 border border-blue-200 text-xs text-blue-800 font-medium"
-                          >
-                            {item.token}{' '}
-                            <span className="text-blue-500 font-mono text-[10px]">
-                              (+{item.importance})
+                        {result.explanation.token_attributions.map((item, idx) => {
+                          const rawScore = Number(item.importance ?? item.impact ?? 0);
+                          const formattedScore = `${rawScore >= 0 ? '+' : ''}${rawScore.toFixed(4)}`;
+                          return (
+                            <span
+                              key={idx}
+                              className={`px-2.5 py-1 rounded-lg border text-xs font-medium ${
+                                rawScore >= 0
+                                  ? 'bg-blue-50 border-blue-200 text-blue-800'
+                                  : 'bg-slate-50 border-slate-200 text-slate-700'
+                              }`}
+                            >
+                              {item.token}{' '}
+                              <span
+                                className={`font-mono text-[10px] ${
+                                  rawScore >= 0 ? 'text-blue-600' : 'text-slate-500'
+                                }`}
+                              >
+                                ({formattedScore})
+                              </span>
                             </span>
-                          </span>
-                        ))}
+                          );
+                        })}
                       </div>
                     </div>
+                  )}
+
+                  {result.explanation.decision_context && (
+                    <p className="text-xs text-slate-600 bg-slate-50 p-3 rounded-xl border border-slate-200">
+                      {result.explanation.decision_context}
+                    </p>
                   )}
 
                   {result.explanation.disclaimer && (

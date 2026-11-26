@@ -10,6 +10,7 @@ import numpy as np
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 MODELS_DIR = os.path.join(BASE_DIR, "saved_models")
 NETLIFY_FUNCS_DIR = os.path.join(BASE_DIR, "netlify", "functions")
+FRONTEND_NETLIFY_FUNCS_DIR = os.path.join(BASE_DIR, "frontend", "netlify", "functions")
 FRONTEND_DATA_DIR = os.path.join(BASE_DIR, "frontend", "src", "data")
 
 def export_model_engine():
@@ -49,18 +50,17 @@ def export_model_engine():
     }
 
     os.makedirs(NETLIFY_FUNCS_DIR, exist_ok=True)
+    os.makedirs(FRONTEND_NETLIFY_FUNCS_DIR, exist_ok=True)
     os.makedirs(FRONTEND_DATA_DIR, exist_ok=True)
 
     netlify_path = os.path.join(NETLIFY_FUNCS_DIR, "model_engine.json")
+    frontend_netlify_path = os.path.join(FRONTEND_NETLIFY_FUNCS_DIR, "model_engine.json")
     frontend_path = os.path.join(FRONTEND_DATA_DIR, "modelEngine.json")
 
-    print(f"Writing {len(compact_vocab)} features to {netlify_path}...")
-    with open(netlify_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, separators=(",", ":"))
-
-    print(f"Writing {len(compact_vocab)} features to {frontend_path}...")
-    with open(frontend_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, separators=(",", ":"))
+    for target_path in (netlify_path, frontend_netlify_path, frontend_path):
+        print(f"Writing {len(compact_vocab)} features to {target_path}...")
+        with open(target_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, separators=(",", ":"))
 
     size_kb = os.path.getsize(frontend_path) / 1024
     print(f"Model engine exported successfully! File size: {size_kb:.1f} KB")

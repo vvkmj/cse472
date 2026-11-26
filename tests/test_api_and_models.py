@@ -167,16 +167,40 @@ def test_pdf_download_endpoints():
 def test_exported_model_engine_integrity():
     """Verify exported statistical model engine exists and has full feature coverage."""
     import json
-    engine_path = os.path.join(
-        os.path.dirname(os.path.dirname(__file__)), "netlify", "functions", "model_engine.json"
-    )
+    base_dir = os.path.dirname(os.path.dirname(__file__))
+    engine_path = os.path.join(base_dir, "netlify", "functions", "model_engine.json")
+    frontend_engine_path = os.path.join(base_dir, "frontend", "netlify", "functions", "model_engine.json")
     assert os.path.exists(engine_path), "model_engine.json must exist in netlify/functions"
+    assert os.path.exists(frontend_engine_path), "model_engine.json must exist in frontend/netlify/functions"
     with open(engine_path, "r", encoding="utf-8") as f:
         data = json.load(f)
+    with open(frontend_engine_path, "r", encoding="utf-8") as f:
+        frontend_data = json.load(f)
+    assert data == frontend_data, "frontend/netlify/functions/model_engine.json must match root copy"
     assert "vocabulary" in data
     assert len(data["vocabulary"]) >= 15000
     assert len(data["classes"]) == 6
     assert len(data["lr_intercept"]) == 6
     assert len(data["svm_intercept"]) == 6
+
+
+def test_netlify_functions_sync_and_commonjs_marker():
+    """Ensure root and frontend Netlify function bundles stay identical and CommonJS-safe."""
+    import json
+    base_dir = os.path.dirname(os.path.dirname(__file__))
+    root_dir = os.path.join(base_dir, "netlify", "functions")
+    frontend_dir = os.path.join(base_dir, "frontend", "netlify", "functions")
+
+    for fname in ("package.json", "api.js", "data.json", "model_engine.json"):
+        root_file = os.path.join(root_dir, fname)
+        frontend_file = os.path.join(frontend_dir, fname)
+        assert os.path.exists(root_file), f"Missing {root_file}"
+        assert os.path.exists(frontend_file), f"Missing {frontend_file}"
+        with open(root_file, "rb") as rf, open(frontend_file, "rb") as ff:
+            assert rf.read() == ff.read(), f"{fname} differs between netlify/functions and frontend/netlify/functions"
+
+    with open(os.path.join(frontend_dir, "package.json"), "r", encoding="utf-8") as f:
+        pkg = json.load(f)
+    assert pkg.get("type") == "commonjs"
 
 
