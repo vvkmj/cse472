@@ -5,7 +5,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.15%20(MPS%20Accelerated)-EE4C2C.svg)](https://pytorch.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-1.0.0-009688.svg)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-18-61DAFB.svg)](https://react.dev)
-[![Tests: 13 Passed](https://img.shields.io/badge/Pytest-13%20Passed-success.svg)](https://pytest.org)
+[![Tests: 16 Passed](https://img.shields.io/badge/Pytest-16%20Passed-success.svg)](https://pytest.org)
 
 ShieldText is a comprehensive, functional, and academically defensible Natural Language Processing (NLP) and Deep Learning system designed for **CSE472 — Deep Learning for Natural Language Processing** (Academic Session 2026–27). 
 
@@ -95,7 +95,7 @@ cse472_ca/
 │   └── bert_finetuning.ipynb
 │
 ├── saved_models/                    # Trained model checkpoints, vocab, and evaluation metrics
-├── tests/                           # Pytest unit & integration test suite (13 tests)
+├── tests/                           # Pytest unit & integration test suite (16 tests)
 ├── docs/                            # Comprehensive academic documentation
 │   ├── PROJECT_REPORT.md            # Detailed 19-section academic project report
 │   ├── PRESENTATION.md              # 12-slide academic defense presentation
@@ -160,7 +160,7 @@ PYTHONPATH=. python backend/training/train_bert.py --quick
 ```bash
 PYTHONPATH=. pytest tests/test_api_and_models.py -v
 ```
-All 13 unit tests will execute and verify the preprocessing pipeline, vocabulary mapping, model loading, live inference, and API endpoints.
+All 16 unit tests will execute and verify the preprocessing pipeline, vocabulary mapping, model loading, live inference, API endpoints, and Netlify function parity.
 
 ---
 

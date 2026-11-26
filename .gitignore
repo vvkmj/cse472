@@ -28,3 +28,9 @@ saved_models/bert_finetuned/
 .idea/
 *.log
 
+# Netlify local state and temp archives
+.netlify/
+frontend/.netlify/
+deploy-*.zip
+
+
